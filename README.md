@@ -4,10 +4,10 @@
 </p>
 
 ### RAG Pipelines
-*Indexing | Retrieval | Generation*
+*Ingestion | Retrieval | Generation*
 
 <p align="center">
-  <img src="https://ik.imagekit.io/5wegcvcxp/Resume-Multi-modal-rag/Indexing.png" alt="Indexing Pipeline" width="100%">
+  <img src="https://ik.imagekit.io/5wegcvcxp/Resume-Multi-modal-rag/Indexing.png" alt="Ingestion Pipeline" width="100%">
 </p>
 <p align="center">
   <img src="https://ik.imagekit.io/5wegcvcxp/Resume-Multi-modal-rag/Retrieval.png" alt="Retrieval Pipeline" width="100%">
