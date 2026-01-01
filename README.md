@@ -16,23 +16,7 @@
   <img src="https://ik.imagekit.io/5wegcvcxp/Resume-Multi-modal-rag/Generation.png" alt="Generation Pipeline" width="100%">
 </p>
 
----
-
 <br>
-<br>
-
-## 🚀 Production Architecture
-<p align="center">
-  <img src="https://ik.imagekit.io/5wegcvcxp/Resume-Multi-modal-rag/Local-Architecture.png" alt="Production Architecture" width="100%" height="100%">
-</p>
-
----
-
-<br>
-
-<br>
-<br>
-
 
 # 🐳 **Local Docker Setup Guide**
 
@@ -56,7 +40,6 @@ npm install -g supabase
 ```
 </details>
 
-<br>
 <hr>
 <br>
 
