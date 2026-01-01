@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+merged-documents/
+sample-pdfs/
+uploads/
+.cursor/
+vector_stores/
+.cursor/
+.env
+.env.local
+.env.production
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+libs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Pyre type checker
+.pyre/
+
+# pytest cache
+.pytest_cache/
+
+# Unit test / coverage reports
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.tox/
+.nox/
+.cache/
+coverage.xml
+*.coveragerc
+*.codecov.yml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+
+# UV-specific files
+uvicorn.log
+uvicorn.error.log
+uvicorn.access.log
