@@ -1,11 +1,12 @@
 // Basic API Client with Authentication Support
 
-const BASE_URL = process.env.NEXT_PUBLIC_BACKEND_SERVER_URL;
-if (!BASE_URL) {
-  throw new Error(
-    "NEXT_PUBLIC_BACKEND_SERVER_URL is not set in the environment variables"
-  );
-}
+const BASE_URL = "";
+// const BASE_URL = process.env.NEXT_PUBLIC_BACKEND_SERVER_URL;
+// if (!BASE_URL) {
+//   throw new Error(
+//     "NEXT_PUBLIC_BACKEND_SERVER_URL is not set in the environment variables"
+//   );
+// }
 export const apiClient = {
   get: async (endpoint: string, token?: string | null) => {
     const headers: HeadersInit = {};
