@@ -13,6 +13,7 @@ services:
 
   api:
     build: .
+    image: multimodal-rag-app:latest
     container_name: multimodal-rag-api
     ports:
       - "8000:8000"
@@ -28,8 +29,8 @@ services:
         condition: service_healthy
 
   worker:
-    build: .
-    container_name: multimodal-rag-worker
+    image: multimodal-rag-app:latest
+    # Not specifying a container name is intentional; Docker automatically assigns names like “worker-1” and “worker-2,” which makes them easy to understand.
     env_file:
       - .env
     environment:
